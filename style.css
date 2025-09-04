@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  padding: 1rem;
+  background: #000;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(to right, #ffeb3b, #333);
+  color: #000;
+}
+
+.hero-text {
+  grid-column: 1 / 2;
+}
+
+.hero-img img {
+  max-width: 100%;
+}
+
+.discount-form {
+  grid-column: 3 / 4;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+  gap: 1rem;
+  text-align: center;
+}
+
+.cards {
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.team {
+  padding: 2rem;
+  background: #ffeb3b;
+  text-align: center;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.team-member {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
